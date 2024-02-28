@@ -123,10 +123,10 @@ body{
 /*-----------------------------------------Main-------------------------------------*/
 
 .main{
-  margin-top: 20px;
+  margin-top: 3vh;
   display: grid;
   grid-template-columns: 1fr 2fr 6fr 2fr;
-  column-gap: 28px;
+  column-gap: 2vw;
   height: 1000px;
 }
 
@@ -135,16 +135,17 @@ body{
 
 .side-bar{
   position: fixed;
-  left: 8vw;
+  left: 7.7%;
+  max-height: 80%;
 }
 .profile{
   display: flex;
-  border-radius: 15px;
+  border-radius: 0.8rem;
   background-color: var(--whitecolor);
   color: var(--font-color);
   flex-direction: row;
   height: 80px;
-  margin-bottom: 20px;
+  margin-bottom: 2.8vh;
 }
 .profile-pic-sidebar{
   margin-top:15px;
@@ -359,7 +360,8 @@ body{
   background-color: var(--whitecolor);
   border-radius: 20px;
   padding: 20px 15px;
-  padding-right: 10px;
+  padding-right: 1vw;
+  max-width: 20vw;
   .close-button{
     display: none;
   }
